@@ -17,8 +17,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="bg-zinc-950 h-screen w-full max-w-[1300px] mx-auto">
-    <div class="fixed bg-clouds w-full h-full left-0 bg-no-repeat bg-cover opacity-25"></div>
+<body class="bg-zinc-950 h-screen w-full max-w-[1300px] mx-auto overflow-hidden">
     {{ $slot }}
 </body>
 
